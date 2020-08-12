@@ -1,23 +1,4 @@
 ###################
-<<<<<<< HEAD
-Create file .htaccess
-###################
-
-=======
-.htaccess file
-###################
-
-RewriteEngine On
-
-RewriteCond %{REQUEST_FILENAME} !-f
-
-RewriteCond %{REQUEST_FILENAME} !-d
-
-RewriteRule ^(.*)$ index.php?/$1 [L]
-
->>>>>>> 9ea009b014c096bfd64d83670935dad3d16c1b91
-
-###################
 What is CodeIgniter
 ###################
 
