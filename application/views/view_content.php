@@ -4,6 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistem Komentar</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style type="text/css">
+        .container {
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        .child{
+             margin-left: 50px;
+        }
+        .modal {
+            width: 40% !important;
+        }
+        textarea {
+            width: 100%;
+            height: 80px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -82,20 +98,4 @@
         </div>
     <?php endforeach;?>
 </body>
-<style type="text/css">
-    .container {
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-    .child{
-         margin-left: 50px;
-    }
-    .modal {
-        width: 40% !important;
-    }
-    textarea {
-        width: 100%;
-        height: 80px;
-    }
-</style>
 </html>
